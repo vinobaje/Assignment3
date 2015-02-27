@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Assingment03
+namespace Assingment03Vinobaje_Manohar_Assingment_3
 {
     abstract class Planet
     {
