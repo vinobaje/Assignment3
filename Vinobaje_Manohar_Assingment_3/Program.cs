@@ -1,4 +1,10 @@
-﻿using System;
+﻿/*
+ * Assignment-3-Comp123
+ * Name : Vinobaje Manohar
+ * Student Number : 300814188
+ */
+
+using System;
 
 
 namespace Assingment03Vinobaje_Manohar_Assingment_3

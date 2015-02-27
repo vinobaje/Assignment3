@@ -1,10 +1,12 @@
 ﻿using System;
+using Vinobaje_Manohar_Assingment_3;
 
 
 namespace Assingment03Vinobaje_Manohar_Assingment_3
 {
     class TerrestriaPlanet : Planet, IHasMoons, IHabitable
     {
+        //PRIVATE INSTANCE VARIABLES+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         private bool _oxygen;
 
 
@@ -13,7 +15,8 @@ namespace Assingment03Vinobaje_Manohar_Assingment_3
         {
             this._oxygen = oxygen; //local variable
         }
-
+       
+        //PUBLIC METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public bool HasMoons()
         {
             return (moonCount > 0) ? true : false;

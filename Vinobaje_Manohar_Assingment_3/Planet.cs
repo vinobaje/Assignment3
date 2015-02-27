@@ -4,6 +4,8 @@ namespace Assingment03Vinobaje_Manohar_Assingment_3
 {
     abstract class Planet
     {
+        //PRIVATE INSTANCE VARIABLES++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
         double _diameter;
         double _mass;
         int _moonCount;
@@ -12,6 +14,7 @@ namespace Assingment03Vinobaje_Manohar_Assingment_3
         int _ringCount;
         double _rotationPeriod;
 
+        //PUBLIC PROPERTIES++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public double Diameter
         {
             get //read-only
@@ -84,14 +87,15 @@ namespace Assingment03Vinobaje_Manohar_Assingment_3
             }
         }
 
-
+        //CONSTRUCTOR METHOD+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public Planet(string name, double diameter, double mass)
         {
             this._name = name;
             this._diameter = diameter;
             this._mass = mass;
         }
-
+        
+        //PUBLIC METHODS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
         public override string ToString()
         {
             return this.Name + " is a planet, " + this.Diameter + " is it's diameter and " + this.Mass + " is it's mass.";
